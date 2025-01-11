@@ -12,7 +12,7 @@
       document.getElementById("candidateName").innerHTML = localStorage.getItem("candidateName");
       document.getElementById("grade").innerHTML = localStorage.getItem("grade");
       document.getElementById("courseName").innerHTML = localStorage.getItem("courseName");
-      document.getElementById("certificateID").innerHTML = localStorage.getItem("certificateID");
+      document.getElementById("certificateID").innerHTML = "id: " + localStorage.getItem("certificateID");
       document.getElementById("date").innerHTML = localStorage.getItem("date");
       let date=localStorage.getItem("date")
       
@@ -23,7 +23,7 @@
     <div class="entry-form">
         <div class="entry-form1">
             
-        <p id="certificateID" style="text-align: right;">Certificate ID: #TBD</p><br/>
+        <p id="certificateID" style="text-align: right; padding-right: 15px;">Certificate ID: #TBD</p><br/>
        
         <p style="text-align: center ;font-size: 18px;font-weight: bold;">Kerala Blockchain Academy</p><br/>
         <div style="display: flex; justify-content: center; align-items: center;"><img src="kba.jpg" width="200" height="200" style="mix-blend-mode: darken;"></div>
