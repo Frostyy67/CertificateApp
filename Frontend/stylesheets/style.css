@@ -1,8 +1,5 @@
 .header {
   box-sizing: border-box;
-}
-
-.header {
   overflow: hidden;
   background-color: #f1f1f1;
   padding: 10px 5px;
@@ -26,7 +23,7 @@
 
 .header a:hover {
   background-color: #ddd;
-  color: black;
+  color: rgb(171, 69, 69);
 }
 
 .header a.active {
@@ -90,15 +87,16 @@
   opacity: 1;
   right: 0;
 }
+
 .right-corner-component {
   position: absolute;
   top: 0;
   right: 0;
-  
+
   /* Optional: Add padding or other styles as needed */
 }
+
 .right-component {
- 
+
   float: right;
-  /* Optional: Add padding or other styles as needed */
 }

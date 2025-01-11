@@ -37,6 +37,7 @@ body {
   color: #fff;
   font-size: 20px;
   margin: 10px;
+  border-radius: 10px;
 }
 
 /*Resize the wrap to see the search bar change!*/
@@ -49,6 +50,9 @@ body {
   transform: translate(-50%, -50%);
 }
 .text-box-with-border {
+  border-radius: 10px;
   border: 1px solid #007bff; /* Example border color */
   padding: 5px; /* Optional: Add padding for better appearance */
+  height: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

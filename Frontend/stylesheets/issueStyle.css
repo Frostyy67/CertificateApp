@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 body {
-  background: #f2f2f2;
+  background: #f4f6fb;
   font-family: 'Open Sans', sans-serif;
   margin: 8px;
 }
@@ -10,7 +10,7 @@ body {
   padding: 60px;
   border: 1px solid #ddd;
   border-radius: 5px;
-  background-color: #f8f9f9;
+  background-color: #d5f8f8;
   margin: 0 auto; 
 }
 .entry-form1{
